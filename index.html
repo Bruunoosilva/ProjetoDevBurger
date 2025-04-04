@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevBurguer</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="/Style/style.css">
+</head>
+<body>
+  <div class="overlay"></div>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">DevBurguer</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/index.html">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Cardapio.html">Cardápio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Sobre.html">Sobre Nós</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Contato.html">Contato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Pedidos.html">Pedidos</a>
+                    </li>
+                </ul>
+                <form class="d-flex search-form">
+                    <div class="input-group">
+                        <input type="text" class="form-control search-input" placeholder="Buscar..." aria-label="Search">
+                        <button class="btn btn-warning search-btn" type="submit">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <div class="welcome-header text-center mb-4">
+      <h1 class="welcome-title">Bem-vindo à DevBurguer! <span class="burger-emoji">🍔</span></h1>
+      <p class="welcome-tagline">O sabor que compila</p>
+    </div>
+    <div class="section-box text-center">
+      <p>Na DevBurguer, transformamos códigos em sabores e bugs em delícias! Nossa stack? Pães artesanais, burgers suculentos e molhos que vão derreter seu coração (e seu paladar).</p>
+      <p>Desenvolvido por devs para devs, cada mordida é um commit de felicidade no seu dia!</p>
+    </div>
+
+    <h1 class="text-center mb-4">📂 Nossas Especialidades</h1>
+    <div class="row text-center mb-5">
+      <div class="col-md-4">
+        <i class="fas fa-hamburger fa-3x" onclick="window.location.href='cardapio.html#burgers';"></i>
+        <h3>Burgers</h3>
+        <p>Deliciosos hambúrgueres artesanais.</p>
+      </div>
+      <div class="col-md-4">
+        <i class="fas fa-coffee fa-3x" onclick="window.location.href='cardapio.html#drinks';"></i>
+        <h3>Bebidas</h3>
+        <p>Sucos, refrigerantes e drinks especiais.</p>
+      </div>
+      <div class="col-md-4">
+        <i class="fas fa-ice-cream fa-3x" onclick="window.location.href='cardapio.html#desserts';"></i>
+        <h3>Sobremesas</h3>
+        <p>Sobremesas irresistíveis para completar sua refeição.</p>
+      </div>
+    </div>
+
+    <div class="section-box text-center">
+      <p>Debugando a fome desde 2025! Nossos burgers são como bons códigos: bem estruturados, performáticos e cheios de features deliciosas.</p>
+      <a href="/Cardapio.html" class="btn btn-warning btn-order">👉 Peça Já 👈</a>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>&copy; 2025 <strong>DevBurguer </strong><span>Todos os direitos reservados, mas o sabor é compartilhado! 😋</span></p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="/js/search.js"></script>
+</body>
+</html>

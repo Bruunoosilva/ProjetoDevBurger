@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevBurguer</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="/Style/style.css">
+</head>
+<body>
+
+    <div class="overlay"></div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">DevBurguer</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/index.html">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Cardapio.html">Cardápio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Sobre.html">Sobre Nós</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Contato.html">Contato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Pedidos.html">Pedidos</a>
+                    </li>
+                </ul>
+                <form class="d-flex search-form">
+                    <div class="input-group">
+                        <input type="text" class="form-control search-input" placeholder="Buscar..." aria-label="Search">
+                        <button class="btn btn-warning search-btn" type="submit">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="checkout-container mt-5 mb-5">
+        <h1 class="welcome-title text-center mb-4">Check-Out</h1>
+        <div class="mb-3">
+            <h4>Resumo do Pedido</h4>
+            <ul class="list-group">
+                <li class="list-group-item">Hambúrguer Clássico - Quantidade: 1 - R$ 25,00</li>
+                <li class="list-group-item">Milkshake de Chocolate - Quantidade: 1 - R$ 15,00</li>
+            </ul>
+        </div>
+        <div class="mb-3">
+            <h4>Total: R$ 40,00</h4>
+        </div>
+        <button class="btn btn-warning btn-order">Pagamento</button>
+    </div>
+
+  <footer class="footer">
+        <p>&copy; 2025 <strong>DevBurguer </strong><span>Todos os direitos reservados, mas o sabor é compartilhado! 😋</span></p>
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/search.js"></script>
+</body>

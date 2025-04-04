@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevBurguer</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="/Style/style.css">
+</head>
+<body>
+    <div class="overlay"></div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">DevBurguer</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index.html">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/Cardapio.html">Cardápio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Sobre.html">Sobre Nós</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Contato.html">Contato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Pedidos.html">Pedidos</a>
+                    </li>
+                </ul>
+                <form class="d-flex search-form">
+                    <div class="input-group">
+                        <input type="text" class="form-control search-input" placeholder="Buscar..." aria-label="Search">
+                        <button class="btn btn-warning search-btn" type="submit">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container text-center mt-5" id="menu">
+        <div class="welcome-header text-center mb-5">
+          <h1 class="welcome-title">Nosso Cardápio <span class="burger-emoji">🍔</span></h1>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <i class="fas fa-hamburger fa-3x" onclick="window.location.href='cardapio.html#burgers';"></i></i>
+                <h3>Burgers</h3>
+                <p>Deliciosos hambúrgueres artesanais.</p>
+            </div>
+            <div class="col-md-4">
+                <i class="fas fa-coffee fa-3x" onclick="window.location.href='cardapio.html#drinks';"></i></i>
+                <h3>Bebidas</h3>
+                <p>Sucos, refrigerantes e drinks especiais.</p>
+            </div>
+            <div class="col-md-4">
+                <i class="fas fa-ice-cream fa-3x"onclick="window.location.href='cardapio.html#desserts';"></i>
+                <h3>Sobremesas</h3>
+                <p>Sobremesas irresistíveis para completar sua refeição.</p>
+            </div>
+        </div>
+    </div>
+
+   <div id="burgers">
+    <h2 class="text-center mb-4">Hambúrgueres</h2>
+        <div class="row menu-item">
+            <div class="row">
+            <div class="col-md-6">
+                <img src="/img/Brunurger.jpeg" class="img-fluid" alt="Hambúrguer Clássico">
+            </div>
+            <div class="col-md-6 d-flex flex-column justify-content-center">
+                <h2>Brunurger Supreme</h2>
+                <p>Um hambúrguer supremo para quem não se contenta com pouco: pão brioche, dois smash burgers suculentos, queijo cheddar duplo, bacon crocante e molho especial da casa..</p>
+                <button class="btn btn-warning btn-order" onclick="window.location.href='carrinho.html'">Peça Já</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="row menu-item">
+        <div class="col-md-6">
+            <img src="/img/AndyFire.jpeg" class="img-fluid" alt="Hambúrguer Clássico">
+        </div>
+        <div class="col-md-6 d-flex flex-column justify-content-center">
+            <h2>AndyFire</h2>
+            <p>Explosão de sabor com um toque apimentado! Pão australiano, hambúrguer de costela, queijo prato, picles, cebola crispy e molho picante exclusivo.</p>
+            <button class="btn btn-warning btn-order" onclick="window.location.href='carrinho.html'">Peça Já</button>
+        </div>
+    </div>
+
+    <div class="row menu-item">
+        <div class="col-md-6">
+            <img src="/img/YuDilicia.jpeg" class="img-fluid" alt="Hambúrguer Clássico">
+        </div>
+        <div class="col-md-6 d-flex flex-column justify-content-center">
+            <h2>YuDilicia</h2>
+            <p>Para os fãs de muito queijo! hambúrguere suculento, queijo cheddar cremoso em dobro, pão de brioche e um toque de molho especial defumado..</p>
+            <button class="btn btn-warning btn-order" onclick="window.location.href='carrinho.html'">Peça Já</button>
+        </div>
+    </div>
+
+    <div class="row menu-item">
+        <div class="col-md-6">
+            <img src="/img/YuDilicia.jpeg" class="img-fluid" alt="Hambúrguer Clássico">
+        </div>
+        <div class="col-md-6 d-flex flex-column justify-content-center">
+            <h2>Hambúrguer 4</h2>
+            <p>Para os fãs de muito queijo! hambúrguere suculento, queijo cheddar cremoso em dobro, pão de brioche e um toque de molho especial defumado..</p>
+            <button class="btn btn-warning btn-order" onclick="window.location.href='carrinho.html'">Peça Já</button>
+        </div>
+    </div>
+
+    <div class="row menu-item">
+        <div class="col-md-6">
+            <img src="/img/YuDilicia.jpeg" class="img-fluid" alt="Hambúrguer Clássico">
+        </div>
+        <div class="col-md-6 d-flex flex-column justify-content-center">
+            <h2>Hambúrguer 5</h2>
+            <p>Para os fãs de muito queijo! hambúrguere suculento, queijo cheddar cremoso em dobro, pão de brioche e um toque de molho especial defumado..</p>
+            <button class="btn btn-warning btn-order" onclick="window.location.href='carrinho.html'">Peça Já</button>
+        </div>
+    </div>
+</nav>
+    </div>
+</div>
+
+<div class="row menu-item">
+    <div class="col-md-6">
+        <img src="/img/YuDilicia.jpeg" class="img-fluid" alt="Hambúrguer Clássico">
+    </div>
+    <div class="col-md-6 d-flex flex-column justify-content-center">
+        <h2>Hambúrguer 6</h2>
+        <p>Para os fãs de muito queijo! hambúrguere suculento, queijo cheddar cremoso em dobro, pão de brioche e um toque de molho especial defumado..</p>
+        <button class="btn btn-warning btn-order" onclick="window.location.href='carrinho.html'">Peça Já</button>
+    </div>
+</div>
+    </div>
+    </div>
+
+<div id="desserts">
+    <h2 class="text-center mb-4">Sobremesas</h2>
+    <div class="row menu-item position-relative">
+        <div class="col-md-6">
+            <img src="https://via.placeholder.com/400x250" class="img-fluid" alt="Sobremesa Especial">
+        </div>
+        <div class="col-md-6 d-flex flex-column justify-content-center">
+            <h2>BrowNeto</h2>
+            <p>Aguardando imagem e Descrição.</p>
+            <button class="btn btn-warning btn-order" onclick="window.location.href='carrinho.html'">Peça Já</button>
+        </div>
+    </div>
+</div>
+
+<div class="row menu-item position-relative">
+    <div class="col-md-6">
+        <img src="https://via.placeholder.com/400x250" class="img-fluid" alt="Sobremesa Especial">
+    </div>
+    <div class="col-md-6 d-flex flex-column justify-content-center">
+        <h2>Vieira Doce</h2>
+        <p>Aguardando imagem e Descrição.</p>
+        <button class="btn btn-warning btn-order" onclick="window.location.href='carrinho.html'">Peça Já</button>
+    </div>
+</div>
+</div>
+
+<div class="row menu-item position-relative">
+    <div class="col-md-6">
+        <img src="https://via.placeholder.com/400x250" class="img-fluid" alt="Sobremesa Especial">
+    </div>
+    <div class="col-md-6 d-flex flex-column justify-content-center">
+        <h2>Daniel's Fantasy</h2>
+        <p>Aguardando imagem e Descrição.</p>
+        <button class="btn btn-warning btn-order" onclick="window.location.href='carrinho.html'">Peça Já</button>
+    </div>
+</div>
+</div>
+
+<div class="row menu-item position-relative">
+    <div class="col-md-6">
+        <img src="https://via.placeholder.com/400x250" class="img-fluid" alt="Sobremesa Especial">
+    </div>
+    <div class="col-md-6 d-flex flex-column justify-content-center">
+        <h2>Cravos de Cruz</h2>
+        <p>Aguardando imagem e Descrição</p>
+        <button class="btn btn-warning btn-order" onclick="window.location.href='carrinho.html'">Peça Já</button>
+    </div>
+</div>
+</div>
+
+<div id="drinks">
+    <h2 class="text-center mb-4">Bebidas</h2>
+    <div class="row menu-item position-relative">
+        <div class="col-md-6">
+            <img src="https://via.placeholder.com/400x250" class="img-fluid" alt="Milkshake de Chocolate">
+        </div>
+        <div class="col-md-6 d-flex flex-column justify-content-center">
+            <h2>Orlando Ice</h2>
+            <p>Aguardando imagem e Descrição.</p>
+            <button class="btn btn-warning btn-order" onclick="window.location.href='carrinho.html'">Peça Já</button>
+        </div>
+    </div>
+</div>
+
+<div class="row menu-item position-relative">
+    <div class="col-md-6">
+        <img src="https://via.placeholder.com/400x250" class="img-fluid" alt="Milkshake de Chocolate">
+    </div>
+    <div class="col-md-6 d-flex flex-column justify-content-center">
+        <h2>Merlin's Elixir</h2>
+        <p>Aguardando imagem e Descrição.</p>
+        <button class="btn btn-warning btn-order" onclick="window.location.href='carrinho.html'">Peça Já</button>
+    </div>
+</div>
+</div>
+
+<div class="row menu-item position-relative">
+    <div class="col-md-6">
+        <img src="https://via.placeholder.com/400x250" class="img-fluid" alt="Milkshake de Chocolate">
+    </div>
+    <div class="col-md-6 d-flex flex-column justify-content-center">
+        <h2>Daniel's Delight</h2>
+        <p>Aguardando imagem e Descrição.</p>
+        <button class="btn btn-warning btn-order" onclick="window.location.href='carrinho.html'">Peça Já</button>
+    </div>
+</div>
+</div>
+
+<div class="row menu-item position-relative">
+    <div class="col-md-6">
+        <img src="https://via.placeholder.com/400x250" class="img-fluid" alt="Milkshake de Chocolate">
+    </div>
+    <div class="col-md-6 d-flex flex-column justify-content-center">
+        <h2>JackFil</h2>
+        <p>Aguardando imagem e Descrição.</p>
+        <button class="btn btn-warning btn-order" onclick="window.location.href='carrinho.html'">Peça Já</button>
+    </div>
+</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="/js/search.js"></script>
+
+  <footer class="footer">
+    <p>&copy; 2025 <strong>DevBurguer </strong><span>Todos os direitos reservados, mas o sabor é compartilhado! 😋</span></p>
+  </footer>
+</body>
+</html>
